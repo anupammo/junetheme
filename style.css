@@ -1,0 +1,164 @@
+/*
+Theme Name: June Theme
+Author: Anupam Mondal
+Author URI: https://anupamondal.in/junetheme
+Description: My first responsive HTML5 theme
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Belanosima:wght@400;600&family=Ysabeau+Infant&display=swap');
+/* Google fonts */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0 auto;
+}
+
+header {
+    border-top: #FFF solid 2px;
+}
+
+.wrap {
+    padding: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h1 a,
+h2,
+h3,
+h4,
+h5,
+h6,
+* {
+    font-family: 'Belanosima', sans-serif;
+}
+
+p,
+a,
+li {
+    /* font-family: 'Abel', sans-serif; */
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.my-logo,
+footer {
+    width: 100%;
+    padding-left: 1%;
+}
+
+footer {
+    padding: 5px 15px;
+    border-bottom: #FFF solid 2px;
+}
+
+footer p,
+footer a {
+    text-align: center;
+}
+
+.text-light {
+    color: #FFF;
+}
+
+.text-dark {
+    color: #000;
+}
+
+body>header {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+.wrap {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.content-area {
+    display: inline-block;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+    display: inline-block;
+}
+
+.primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: #ececec;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+    width: 99%;
+    padding: 1%;
+}
+
+.article-loop,
+.article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.bg-grad-1, .menu-primary-container {
+    background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: screen, overlay, hard-light, normal;
+}
+
+
+/* .menu-primary-container {
+    display: block;
+    width: 100%;
+} */
+
+ul#menu-primary {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+ul#menu-primary li.menu-item {
+    display: inline-block;
+}
+li.menu-item a {
+    padding: 6px 12px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+}
