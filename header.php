@@ -8,13 +8,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <header class="my-logo bg-grad-1">
+    <header class="my-logo">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <?php wp_nav_menu(array('header-menu' => 'header-menu')); ?>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1><a class="text-light" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
+                    <h1><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
                 </div>
             </div>
         </div>
     </header>
-    <?php wp_nav_menu(array('header-menu' => 'header-menu')); ?>

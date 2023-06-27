@@ -55,7 +55,6 @@ li {
     font-family: 'Ysabeau Infant', sans-serif;
 }
 
-.my-logo,
 footer {
     width: 100%;
     padding-left: 1%;
@@ -79,9 +78,9 @@ footer a {
     color: #000;
 }
 
-body>header {
+/* body>header {
     padding: 15px;
-}
+} */
 
 a {
     text-decoration: none;
